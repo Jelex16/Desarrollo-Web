@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Información Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Apellido como se muestra en su pasaporte" id="apellido" name="apellido" required><br>
+            
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Solo nombre" id="nombre" name="nombre" required><br>
+            
+            <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+            <input type="number" class="Fecha fecha" name="dia_nacimiento" placeholder="Día" required>
+            <input type="number" class="Fecha" name="mes_nacimiento" placeholder="Mes" required>
+            <input type="number" class="Fecha" name="anio_nacimiento" placeholder="Año" required><br>
+            
+            <label for="ciudad_nacimiento">Ciudad de Nacimiento</label>
+            <input type="text" id="ciudad_nacimiento" placeholder="Ciudad de nacimiento" name="ciudad_nacimiento" required><br>
+            
+            <label for="pais_nacimiento">País de Nacimiento</label>
+            <input type="text" placeholder="España" id="pais_nacimiento" name="pais_nacimiento" list="paises" required>
+            <datalist id="paises">
+                <option value="País 1"></option>
+                <option value="País 2"></option>
+                <option value="País 3"></option>
+            </datalist>
+            <br>
+            <label for="nacionalidad">Nacionalidad</label>
+            <input type="text" placeholder="Español" id="nacional" name="nacional" list="Nacion" required>
+            <datalist id="Nacion">
+                <option value="País 1"></option>
+                <option value="País 2"></option>
+                <option value="País 3"></option>
+            </datalist>
+            <br>
+            <label for="numero_pasaporte">Número de Pasaporte</label>
+            <input type="number" placeholder="Numero de pasaporte" id="numero_pasaporte" name="numero_pasaporte" required><br>
+
+            <label for="pais_emision_pasaporte">País de Emisión del Pasaporte</label>
+            <input type="text" placeholder="España" id="Emision" name="Emision" list="paises" required>
+            <br>
+
+            <label for="fecha_emision_pasaporte">Fecha de Emisión del Pasaporte</label>
+            <input type="number" class="Fecha fecha" name="dia_emision_pasaporte" placeholder="Día" required>
+            <input type="number" class="Fecha" name="mes_emision_pasaporte" placeholder="Mes" required>
+            <input type="number" class="Fecha" name="anio_emision_pasaporte" placeholder="Año" required><br>
+            
+            <label for="fecha_vencimiento_pasaporte">Fecha de Vencimiento del Pasaporte</label>
+            <input type="number" class="Fecha fecha" name="dia_vencimiento_pasaporte" placeholder="Día" required>
+            <input type="number" class="Fecha" name="mes_vencimiento_pasaporte" placeholder="Mes" required>
+            <input type="number" class="Fecha" name="anio_vencimiento_pasaporte" placeholder="Año" required><br>
+        </form>
+    </div>
+</body>
+</html>

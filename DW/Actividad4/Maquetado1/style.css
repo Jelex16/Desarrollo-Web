@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 55%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e9e1e1;
+    text-align: right;
+}
+
+label {
+    width: 50%;
+    margin-right: 15PX;
+    margin-bottom: 15px;
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+.Fecha{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 13%; 
+    margin-left: 14px;
+    margin-bottom: 15px;
+}
+
+.fecha{
+    margin-left: 20px; 
+}

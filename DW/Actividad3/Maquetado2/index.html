@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Universidad Tecnologica Metropolitana Aplicaciones Web -->
+<!-- Maestra: ISC. Ruth Martínez Domínguez -->
+<!-- Alumno: Ledesma Diaz Jesus Antonio -->
+<!-- Grupo 3:C -->
+<!-- Desarrollo De Software Multiplataforma -->
+<!-- Cuatrimestre 3 - Parcial 1 -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro a Evento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro a Evento</h1>
+        <form action="#" method="post">
+            <h3>Fecha del Evento:</h3>
+            <p>10 de Julio, 2024</p>
+
+            <h3>Dirección del Evento:</h3>
+            <p>Calle Principal 123, Ciudad, País</p>
+
+            <h3>Mapa del Evento:</h3>
+            <div id="mapa" class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7452.701766834595!2d-89.62082421483264!3d20.938419611957233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5672270a784baf%3A0x764b40010695f0d9!2sUniversidad%20Tecnol%C3%B3gica%20Metropolitana!5e0!3m2!1ses!2smx!4v1715534679654!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
+
+            <label for="nombre_completo">Nombre completo:</label>
+            <div class="nombre-apellidos">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+            </div>
+            <br>
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+</body>
+</html>
